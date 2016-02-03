@@ -1,0 +1,30 @@
+*{
+background: white;
+}
+
+#pink {
+  color: pink;
+}
+.orange{
+  color: orange;
+}
+li a{
+  font-size: 100px;
+  font:blue;
+}
+li{
+  font-size: 50px;
+}
+a:hover{
+  color:gold;
+  font-size: 400px;
+}
+div p {
+  color: green;
+}
+div > p{
+  color: purple;
+}
+li:first-child{
+  color:lightblue
+}
