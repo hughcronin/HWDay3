@@ -1,30 +1,196 @@
 *{
-background: white;
+
+}
+header {
+  zoom: 100%;
+  width:100%;
+  height:300px;
+  background-image: url("https://progressiveredneckpreacher.files.wordpress.com/2015/09/wave-2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#title{
+  color:#FFF;
+  margin-left: 15%;
+  font-size: 32px;
+  font-family: fantasy;
+}
+.blogby{
+  position:relative;
+  top:-125px;
+}
+#title p{
+  font-family: sans-serif;
+  font-size: 18px;
+  position: relative;
+  top:-76px;
+  color:black;
+}
+.navbar {
+  width: 100%;
+  height: 75px;
+}
+.navbar img{
+  width:17%;
+  float:left;
+  padding-left: 80px;
+}
+.left-side img{
+position: relative;
+top: -10px;
+right:
+}
+.left-side p{
+  position: relative;
+  right: 17px;
+}
+.right-side img{
+float:right;
+width:10%;
+}
+.right-side{
+  float:right;
+  padding-right: 10%;
+}
+.right-side p{
+  position: relative;
+  right: -79px;
+}
+.col-2 {
+  display: inline-block;
+  width: 40%;
+  text-align: right;
 }
 
-#pink {
-  color: pink;
+.navbar p {
+  display: inline-block;
 }
-.orange{
-  color: orange;
+
+.overlay {
+  height: 300px;
+  width: 100%;
+  position: relative;
+  background-color: blue;
+  opacity: 0.2;
+  bottom: 299px;
 }
-li a{
-  font-size: 100px;
-  font:blue;
+.main-container{
+  width:80%;
+  margin: 0 auto;
 }
-li{
-  font-size: 50px;
+
+.maintext{
+  display: inline-block;
+  width:70%;
+  vertical-align: top;
+  position: relative;
+  top: 75px;
 }
-a:hover{
-  color:gold;
-  font-size: 400px;
+.authorinfo{
+  display: inline-block;
+  width:29%;
 }
-div p {
-  color: green;
+.links{
+  position: relative;
+  bottom: 199px;
+  width:100%;
 }
-div > p{
-  color: purple;
+.footcol-1{
+  display: inline-block;
+  width: 24%;
 }
-li:first-child{
-  color:lightblue
+.footcol-1 img{
+  width: 90%;
+}
+.footcol-2{
+  display: inline-block;
+  width: 24%;
+}
+.footcol-2 img{
+width:60%;
+height: 200%;
+}
+.footcol-3{
+  display: inline-block;
+  width: 24%;
+}
+.footcol-3 img{
+width: 40%
+}
+.footcol-4{
+  display: inline-block;
+  width: 24%;
+}
+.footcol-4 img{
+
+}
+.blogby{
+  position: relative;
+  right: -30px;
+  font-size: 10px
+}
+#on{
+  position: relative;
+  top:-26px;
+  right:-25px;
+}
+.blogby img{
+  width:7%;
+  position: relative;
+  right: 31px;
+  border-radius: 100%;
+}
+.date{
+  color: lightgrey;
+text-decoration: underline;
+position: relative;
+top: -27px;
+right: -30px;
+}
+.blogby .blogger{
+  color: blue;
+  font-weight: bold;
+  position: relative;
+  right: -23px;
+  top: -26px;
+}
+.authorinfo img{
+  width:30%;
+  position: relative;
+  right: -70px;
+  top:-355px;
+  border-radius: 100%;
+}
+.main-containertitle{
+  font-size: 30px;
+  color: darkblue;
+  position:relative;
+  top: -125px;
+}
+.main-container .authorinfo{
+  position:relative;
+  left: 50px;
+  top: -253px;
+}
+.maintext2{
+  display: inline-block;
+  width:70%;
+  vertical-align: top;
+  position:relative;
+  top:100px
+}
+.header2{
+  display: inline-block;
+  width:70%;
+  vertical-align: top;
+  position:relative;
+  top:-90px;
+  left: 15px;
+  color:blue;
+  font-size: 20px;
+}
+.bottomnav{
+  position:relative;
+  bottom: 200px;
 }
